@@ -6,7 +6,7 @@ Un jeu d'amélioration de la mémoire basé sur Python, avec une interface graph
 
 - Grille 3x3 avec des signaux visuels et sonores aléatoires.
 - Durées de séances de jeu multiples.
-- Confirmations utilisateurs avec retour visuel.
+- Confirmations utilisateurs (boutons) avec retour visuel.
 - Rapport de jeu détaillé.
 
 ---
