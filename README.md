@@ -26,8 +26,8 @@ Une fois que vous avez **bien INSTALLÉ Python et Git**, continuez avec ce qui s
 1. Créer un dossier pour le projet.  
    Lancer l'interface de ligne de commande (le CLI) - Ne **sortez pas du dossier** créé précédemment.
 
-   Voici comment :
-   Remplacez "mon-dossier" par le nom que vous
+   Voici comment :  
+   Remplacez "mon-dossier" par le nom que vous voulez  
    ![image](https://github.com/user-attachments/assets/0a7c4ca1-9606-4cd6-b02c-2abfa7aaa99f)
 
    TAPEZ cmd :  
