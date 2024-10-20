@@ -34,7 +34,7 @@ class DualAndBackApp:
         self.grid_size = 3
         self.cell_color = "light purple"
         self.bg_color = "#1A1A1A"
-        self.grid_percent = 0.65
+        self.grid_percent = 0.50
         self.signal_duration = 1000  # en milliseconds (par défaut 1 seconde)
         self.num_signals = 21
         self.custom_signals = False
@@ -70,7 +70,12 @@ class DualAndBackApp:
         # Cadre la grille
         self.grid_frame = tk.Frame(self.master, bg=self.bg_color)
         self.grid_frame.place(
-            relx=0.5, rely=0.5, anchor=tk.CENTER, width=grid_width, height=grid_height
+            relx=0.5,
+            rely=0,
+            anchor=tk.N,
+            y=50,
+            width=grid_width,
+            height=grid_height,  #  anchor=tk.N --> N is for north -- y=50 --> adds a 50px padding
         )
 
         # Creation d'une grille de 3x3 via Canvas
