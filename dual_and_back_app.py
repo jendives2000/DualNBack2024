@@ -170,7 +170,7 @@ class DualAndBackApp:
             command=lambda: self.confirm("position"),
         )
         self.position_button.place(
-            relx=0.5, rely=0.75, anchor=tk.CENTER, x=-150, y=0, width=150, height=50
+            relx=0.5, rely=0.75, anchor=tk.CENTER, x=-150, y=250, width=150, height=50
         )
 
         self.sound_button = tk.Button(
@@ -182,7 +182,7 @@ class DualAndBackApp:
             command=lambda: self.confirm("sound"),
         )
         self.sound_button.place(
-            relx=0.5, rely=0.75, anchor=tk.CENTER, x=150, y=0, width=150, height=50
+            relx=0.5, rely=0.75, anchor=tk.CENTER, x=150, y=250, width=150, height=50
         )
 
         # Cadre pour le rapport d'info après chaque jeu
