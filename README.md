@@ -60,6 +60,7 @@ Une nouvelle fenêtre va s'ouvrir et lancera le jeu.
 ## Avant de coder :  
 Avant de commencer à coder faites les choses suivantes :   
 - lisez le document infos-code
+- lisez ensuite le document CONTRIBUER.md
 - consultez l'onglet "ISSUES" pour choisir un problème sur lequel vous travaillerez
   ![image](https://github.com/user-attachments/assets/64fbb0ec-e3ee-478d-ad79-482550be94fe)
 
