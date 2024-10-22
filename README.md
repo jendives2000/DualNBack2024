@@ -37,7 +37,7 @@ Une fois que vous avez **bien INSTALLÉ Python et Git**, continuez avec ce qui s
    ![image](https://github.com/user-attachments/assets/c959725d-e59a-4ffe-b816-0174b60ced1f)
 
 3. Clonez ce repo avec la commande suivante :  
-   `git clone https://github.com/jendives2000/DualAndBackGame.git`  
+   `git clone https://github.com/jendives2000/DualNBack2024.git`  
   Tout le dossier du projet devrait avoir été copié sur votre machine.
 
 4. Créez et activez un environnement virtuel (optionnel mais recommandé) :  
