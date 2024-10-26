@@ -34,7 +34,7 @@ class DualAndBackApp:
         self.grid_size = 3
         self.cell_color = "light purple"
         self.bg_color = "#1A1A1A"
-        self.grid_percent = 0.50
+        self.grid_percent = 0.40
         self.signal_duration = 1000  # en milliseconds (par défaut 1 seconde)
         self.num_signals = 21
         self.custom_signals = False
@@ -106,7 +106,7 @@ class DualAndBackApp:
         self.start_button.place(
             # x=100, y=(1080 - grid_height) // 2 + grid_height + 100, width=150, height=50
             x=100,
-            y=grid_height - 120,
+            y=880,
             width=150,
             height=50,
         )
@@ -174,7 +174,7 @@ class DualAndBackApp:
             command=lambda: self.confirm("position"),
         )
         self.position_button.place(
-            relx=0.5, rely=0.75, anchor=tk.CENTER, x=-150, y=250, width=150, height=50
+            relx=0.5, rely=0.75, anchor=tk.CENTER, x=-150, y=100, width=150, height=50
         )
 
         self.sound_button = tk.Button(
@@ -186,7 +186,7 @@ class DualAndBackApp:
             command=lambda: self.confirm("sound"),
         )
         self.sound_button.place(
-            relx=0.5, rely=0.75, anchor=tk.CENTER, x=150, y=250, width=150, height=50
+            relx=0.5, rely=0.75, anchor=tk.CENTER, x=150, y=100, width=150, height=50
         )
 
         # Cadre pour le rapport d'info après chaque jeu
