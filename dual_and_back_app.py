@@ -98,13 +98,17 @@ class DualAndBackApp:
         self.start_button = tk.Button(
             self.master,
             text="START",
-            bg="white",
-            fg="black",
+            bg="green",
+            fg="white",
             font=("Arial", 16),
             command=self.start_game,
         )
         self.start_button.place(
-            x=100, y=(1080 - grid_height) // 2 + grid_height + 100, width=150, height=50
+            # x=100, y=(1080 - grid_height) // 2 + grid_height + 100, width=150, height=50
+            x=100,
+            y=grid_height - 120,
+            width=150,
+            height=50,
         )
 
         # Boutons de sélection du nombre souhaité de signaux pour 1 jeux
