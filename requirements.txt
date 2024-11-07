@@ -1,7 +1,7 @@
 # Dependence Critique
 pygame==2.6.1
 
-# Dependances Utilitaires
+# Dependances Utilitaires & Extensions
 #black>=2024.4.0
 black==24.10.0
 #pylint>=2024.0.0
