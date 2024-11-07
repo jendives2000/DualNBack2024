@@ -362,7 +362,7 @@ class DualAndBackApp:
                 self.draw_signal(self.active_case, "red")
 
         # Planifie le retour de la couleur du signal à bleu (Schedule reverting color back to blue)
-        self.master.after(500, lambda: self.draw_signal(self.active_case, "blue"))
+        # self.master.after(500, lambda: self.draw_signal(self.active_case, "blue"))
 
     def end_game(self):
         self.game_running = False

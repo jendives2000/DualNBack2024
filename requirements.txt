@@ -2,5 +2,7 @@
 pygame==2.6.1
 
 # Dependances Utilitaires
-black>=2024.4.0
-pylint>=2024.0.0
+#black>=2024.4.0
+black==24.10.0
+#pylint>=2024.0.0
+pylint==3.3.1
