@@ -1,1 +1,10 @@
 pygame==2.6.1
+
+
+
+# Dependances Utilitaires
+black>=2024.4.0
+
+pylint>=2024.0.0
+
+

@@ -52,3 +52,4 @@ coverage.xml
 # Others
 *.DS_Store
 *.log
+*.txt
