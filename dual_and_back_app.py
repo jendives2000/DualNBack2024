@@ -35,7 +35,7 @@ class DualAndBackApp:
         self.cell_color = "light purple"
         self.bg_color = "#1A1A1A"
         self.grid_percent = 0.40
-        self.signal_duration = 1000  # en milliseconds (par défaut 1 seconde)
+        self.signal_duration = 3000  # en milliseconds (par défaut 1 seconde)
         self.num_signals = 21
         self.custom_signals = False
         self.current_signal = 0
